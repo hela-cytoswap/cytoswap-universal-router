@@ -3,9 +3,9 @@ pragma solidity >=0.8.0;
 
 import {IUniswapV2Pair} from '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
 
-/// @title Uniswap v2 Helper Library
+/// @title Cytoswap v2 Helper Library
 /// @notice Calculates the recipient address for a command
-library UniswapV2Library {
+library CytoswapV2Library {
     error InvalidReserves();
     error InvalidPath();
 
