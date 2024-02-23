@@ -1,20 +1,20 @@
 {
-  "name": "@uniswap/universal-router",
+  "name": "@cytoswap/universal-router",
   "description": "Smart contracts for Universal Router",
   "license": "GPL-2.0-or-later",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.6.0",
+  "version": "1.0.0",
   "keywords": [
-    "uniswap",
+    "cytoswap",
     "router",
     "universal router",
     "swap router"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/universal-router"
+    "url": "https://gitlab.snapresearch.io/swapnity/cytoswap-universal-router"
   },
   "files": [
     "contracts/base",
@@ -31,9 +31,9 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@uniswap/v2-core": "1.0.1",
-    "@uniswap/v3-core": "1.0.0",
-    "@openzeppelin/contracts": "4.7.0"
+    "@cytoswap/v3-core": "^1.0.2",
+    "@openzeppelin/contracts": "4.7.0",
+    "@uniswap/v2-core": "1.0.1"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "1.0.4",
